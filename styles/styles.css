@@ -17,6 +17,7 @@ ul {
 
 li {
   font-family: var(--main-font);
+  font-weight: bold;
   font-size: 18px;
   line-height: 2;
 }
@@ -26,8 +27,13 @@ p {
   line-height: 1.5;
 }
 .hero {
-  padding: 100px 80px;
+  padding: 90px 70px;
   background-color: #faf7fe;
+}
+
+.hero h3 {
+  font-family: var(--main-font);
+  font-size: 32px;
 }
 .hero p {
   font-family: var(--main-font);
@@ -39,15 +45,70 @@ p {
   width: 300px;
 }
 
-.btn-primary {
+.btn-about-me {
   background-color: var(--accent-color);
-  border: none;
   color: white;
   border-radius: 4px;
   font-size: 18px;
   line-height: 20px;
   padding: 15px 20px;
 }
+.btn-my-projects {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 20px;
+}
+
 .fa-paperclip {
   color: var(--accent-color);
+}
+
+.skills {
+  background-color: #faf7fe;
+  padding: 40px 20px;
+}
+
+.footer p {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  .hero h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .hero p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .btn-about-me {
+    display: block;
+    margin: 0 auto;
+  }
+  .btn-my-projects {
+    display: block;
+    margin: 0 auto;
+  }
+  .container h2 {
+    text-align: center;
+  }
+  .container p {
+    text-align: center;
+  }
+  .container a {
+    text-align: center;
+  }
+  .skills {
+    margin-top: 20px;
+  }
 }
