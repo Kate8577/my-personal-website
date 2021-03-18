@@ -6,8 +6,27 @@ h1 {
   font-size: 56px;
   font-family: var(--main-font);
 }
+
+h2 {
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 2;
+}
+p {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 1.5;
+}
 .hero {
-  padding: 150px 80px;
+  padding: 100px 80px;
   background-color: #faf7fe;
 }
 .hero p {
@@ -28,4 +47,7 @@ h1 {
   font-size: 18px;
   line-height: 20px;
   padding: 15px 20px;
+}
+.fa-paperclip {
+  color: var(--accent-color);
 }
