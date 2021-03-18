@@ -1,4 +1,31 @@
+:root {
+  --accent-color: #cd2653;
+  --main-font: "Montserrat", sans-serif;
+}
 h1 {
-  color: red;
-  font-family: "Montserrat", sans-serif;
+  font-size: 56px;
+  font-family: var(--main-font);
+}
+.hero {
+  padding: 150px 80px;
+  background-color: #faf7fe;
+}
+.hero p {
+  font-family: var(--main-font);
+  font-size: 24px;
+}
+
+.hero img {
+  border-radius: 200px;
+  width: 300px;
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 15px 20px;
 }
