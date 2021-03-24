@@ -30,7 +30,26 @@ p {
   padding: 90px 70px;
   background-color: #faf7fe;
 }
+.about-me-hero {
+  padding: 90px 70px;
+}
+.about-me-hero img {
+  border-radius: 50%;
+  width: 300px;
+  border: 2px solid var(--accent-color);
+  padding: 20px;
+}
 
+.about-me-hero li {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 2;
+}
+.about-me-hero p {
+  font-family: var(--main-font);
+  font-size: 24px;
+}
 .hero h3 {
   font-family: var(--main-font);
   font-size: 32px;
@@ -41,7 +60,7 @@ p {
 }
 
 .hero img {
-  border-radius: 200px;
+  border-radius: 50%;
   width: 300px;
 }
 
@@ -82,6 +101,19 @@ p {
   .hero h1 {
     text-align: center;
     font-size: 36px;
+  }
+
+  .about-me-hero h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  .about-me-hero li {
+    text-align: left;
+    font-size: 20px;
+  }
+  .about-me-hero p {
+    text-align: center;
+    font-size: 18px;
   }
   .hero h3 {
     font-size: 24px;
