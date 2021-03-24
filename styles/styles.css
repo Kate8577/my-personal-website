@@ -40,7 +40,7 @@ p {
   padding: 20px;
 }
 
-.about-me-hero li {
+.about-me-hero h2 {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 28px;
@@ -107,9 +107,9 @@ p {
     text-align: center;
     font-size: 36px;
   }
-  .about-me-hero li {
-    text-align: left;
+  .about-me-hero h2 {
     font-size: 20px;
+    text-align: center;
   }
   .about-me-hero p {
     text-align: center;
