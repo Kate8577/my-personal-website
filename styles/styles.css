@@ -31,23 +31,38 @@ p {
   padding: 90px 150px;
   background-color: var(--background-color);
 }
-.about-me-hero {
+.content-hero {
   padding: 90px 150px;
 }
-.about-me-hero img {
+.project-content {
+  padding: 90px 150px;
+  background-color: var(--background-color);
+}
+.project-content img {
+  max-height: 595px;
+  border-radius: 4px;
+  box-shadow: 5px 2px 10px #e6e6e6;
+  display: block;
+  margin: 0 auto;
+}
+.project-content h1 {
+  font-family: var(--main-font);
+  font-size: 38px;
+}
+.content-hero img {
   border-radius: 50%;
   width: 300px;
   border: 2px solid var(--accent-color);
   padding: 20px;
 }
 
-.about-me-hero h2 {
+.content-hero h2 {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 28px;
   line-height: 2;
 }
-.about-me-hero p {
+.content-hero p {
   font-family: var(--main-font);
   font-size: 18px;
   line-height: 1.5;
@@ -69,20 +84,20 @@ p {
   width: 300px;
 }
 
-.btn-about-me {
+.btn-main {
   background-color: var(--accent-color);
   color: white;
+  font-family: var(--main-font);
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 16px;
   padding: 15px 20px;
 }
 .btn-my-projects {
   border-color: var(--accent-color);
   color: var(--accent-color);
+  font-family: var(--main-font);
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 16px;
   padding: 15px 20px;
 }
 
@@ -106,23 +121,29 @@ p {
   .hero {
     padding: 90px 70px;
   }
-  .about-me-hero {
+  .content-hero {
     padding: 90px 70px;
+  }
+  .project-content {
+    padding: 90px 70px;
+  }
+  .project-content h1 {
+    font-size: 28px;
   }
   .hero h1 {
     text-align: center;
     font-size: 36px;
   }
 
-  .about-me-hero h1 {
+  .content-hero h1 {
     text-align: center;
     font-size: 36px;
   }
-  .about-me-hero h2 {
+  .content-hero h2 {
     font-size: 20px;
     text-align: center;
   }
-  .about-me-hero p {
+  .content-hero p {
     text-align: center;
     font-size: 18px;
   }
@@ -134,11 +155,13 @@ p {
     font-size: 18px;
     text-align: center;
   }
-  .btn-about-me {
+  .btn-main {
+    padding: 5px 10px;
     display: block;
     margin: 0 auto;
   }
   .btn-my-projects {
+    padding: 5px 10px;
     display: block;
     margin: 0 auto;
   }
