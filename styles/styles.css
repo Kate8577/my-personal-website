@@ -25,7 +25,7 @@ li {
 p {
   font-family: var(--main-font);
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 .hero {
   padding: 90px 150px;
@@ -50,10 +50,8 @@ p {
   font-size: 38px;
 }
 .content-hero img {
-  border-radius: 50%;
-  width: 300px;
-  border: 2px solid var(--accent-color);
-  padding: 20px;
+  width: 350px;
+  border-radius: 6px;
 }
 
 .content-hero h2 {
