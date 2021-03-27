@@ -138,7 +138,7 @@ p {
 }
 @media (max-width: 700px) {
   .hero {
-    padding: 90px 70px;
+    padding: 50px 70px;
   }
   .content-hero {
     padding: 50px 70px;
