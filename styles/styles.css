@@ -28,7 +28,7 @@ p {
   line-height: 1.8;
 }
 .hero {
-  padding: 90px 150px;
+  padding: 70px 150px;
   background-color: var(--background-color);
 }
 .content-hero {
@@ -120,13 +120,28 @@ p {
 .fa-envelope-square {
   color: var(--accent-color);
 }
-
+.contact-links h3 {
+  font: var(--main-font);
+  font-size: 24px;
+}
+.logo {
+  max-height: 50px;
+}
+.active {
+  color: var(--accent-color) !important;
+}
+.nav-item {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 15px;
+  padding: 0 20px !important;
+}
 @media (max-width: 700px) {
   .hero {
     padding: 90px 70px;
   }
   .content-hero {
-    padding: 90px 70px;
+    padding: 50px 70px;
   }
   .project-content {
     padding: 90px 70px;
