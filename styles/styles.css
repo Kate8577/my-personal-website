@@ -31,8 +31,46 @@ p {
   padding: 70px 150px;
   background-color: var(--background-color);
 }
+.hero img {
+  border-radius: 50%;
+  width: 300px;
+}
+.hero h3 {
+  font-family: var(--main-font);
+  font-size: 32px;
+}
+.hero p {
+  font-family: var(--main-font);
+  font-size: 24px;
+}
+
+.skills {
+  background-color: var(--background-color);
+  padding: 40px 20px;
+}
+.fa-paperclip {
+  color: var(--accent-color);
+}
 .content-hero {
-  padding: 90px 150px;
+  padding: 70px 150px;
+}
+.content-hero img {
+  width: 350px;
+  border-radius: 6px;
+}
+.content-hero h2 {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 2;
+}
+.content-hero p {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 1.8;
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 2px;
 }
 .project-content {
   padding: 90px 150px;
@@ -48,38 +86,6 @@ p {
 .project-content h1 {
   font-family: var(--main-font);
   font-size: 38px;
-}
-.content-hero img {
-  width: 350px;
-  border-radius: 6px;
-}
-
-.content-hero h2 {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 2;
-}
-.content-hero p {
-  font-family: var(--main-font);
-  font-size: 18px;
-  line-height: 1.5;
-  background-color: var(--background-color);
-  padding: 20px;
-  border-radius: 2px;
-}
-.hero h3 {
-  font-family: var(--main-font);
-  font-size: 32px;
-}
-.hero p {
-  font-family: var(--main-font);
-  font-size: 24px;
-}
-
-.hero img {
-  border-radius: 50%;
-  width: 300px;
 }
 
 .btn-main {
@@ -97,24 +103,6 @@ p {
   border-radius: 4px;
   font-size: 16px;
   padding: 15px 20px;
-}
-
-.fa-paperclip {
-  color: var(--accent-color);
-}
-
-.skills {
-  background-color: var(--background-color);
-  padding: 40px 20px;
-}
-.footer {
-  margin: 50px 0;
-}
-.footer p {
-  font-family: var(--main-font);
-  font-weight: bold;
-  font-size: 36px;
-  text-align: center;
 }
 
 .contact-links h3 {
@@ -146,7 +134,7 @@ p {
   font-family: var(--main-font);
   text-align: center;
   text-decoration: none;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .email-link:hover {
   color: var(--accent-color);
@@ -154,7 +142,7 @@ p {
 .social-links a {
   color: var(--accent-color);
   font-size: 22px;
-  margin: 0 20px;
+  margin: 0 20px 15px 0;
   background-color: var(--background-color);
   padding: 10px 15px;
   border-radius: 50%;
@@ -164,44 +152,49 @@ p {
   color: white;
   background-color: var(--accent-color);
 }
-@media (max-width: 700px) {
-  .hero {
-    padding: 50px 70px;
-  }
-  .content-hero {
-    padding: 50px 70px;
-  }
+.footer {
+  margin: 50px 0;
+}
+.footer h4 {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+.footer p {
+  font-size: 14px;
+  font-family: var(--main-font);
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .hero,
+  .content-hero,
   .project-content {
-    padding: 90px 70px;
+    padding: 50px 70px;
   }
-  .project-content h1 {
-    font-size: 28px;
-  }
-  .hero h1 {
-    text-align: center;
-    font-size: 36px;
-  }
-
+  .hero h1,
   .content-hero h1 {
     text-align: center;
     font-size: 36px;
   }
-  .content-hero h2 {
-    font-size: 20px;
-    text-align: center;
-  }
+  .hero p,
   .content-hero p {
-    text-align: center;
     font-size: 18px;
+    text-align: center;
   }
   .hero h3 {
     font-size: 24px;
     text-align: center;
   }
-  .hero p {
-    font-size: 18px;
+
+  .content-hero h2 {
+    font-size: 20px;
     text-align: center;
   }
+  .project-content h1 {
+    font-size: 28px;
+  }
+
   .btn-main {
     padding: 5px 10px;
     display: block;
@@ -212,16 +205,22 @@ p {
     display: block;
     margin: 0 auto;
   }
-  .container h2 {
-    text-align: center;
-  }
-  .container p {
-    text-align: center;
-  }
+  .container h2,
+  .container p,
   .container a {
     text-align: center;
   }
+
   .skills {
     margin-top: 20px;
+  }
+  .footer p {
+    font-size: 10px;
+    font-family: var(--main-font);
+    text-align: center;
+  }
+  .footer h4 {
+    font-size: 28px;
+    text-align: center;
   }
 }
