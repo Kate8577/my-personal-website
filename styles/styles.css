@@ -107,22 +107,26 @@ p {
   background-color: var(--background-color);
   padding: 40px 20px;
 }
-
+.footer {
+  margin: 50px 0;
+}
 .footer p {
   font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
   text-align: center;
 }
-.fa-linkedin {
-  color: #0077b5;
-}
-.fa-envelope-square {
-  color: var(--accent-color);
-}
+
 .contact-links h3 {
   font: var(--main-font);
   font-size: 24px;
+}
+.contact-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.contact-links a:hover {
+  color: black;
 }
 .logo {
   max-height: 50px;
@@ -142,11 +146,24 @@ p {
   font-family: var(--main-font);
   text-align: center;
   text-decoration: none;
+  margin-bottom: 40px;
 }
 .email-link:hover {
   color: var(--accent-color);
 }
-
+.social-links a {
+  color: var(--accent-color);
+  font-size: 22px;
+  margin: 0 20px;
+  background-color: var(--background-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 120ms ease-in-out;
+}
+.social-links a:hover {
+  color: white;
+  background-color: var(--accent-color);
+}
 @media (max-width: 700px) {
   .hero {
     padding: 50px 70px;
